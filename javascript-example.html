@@ -1,0 +1,35 @@
+<!doctype>
+<html>
+<head>
+<script type="text/javascript">
+const url = 'http://localhost:8000/api/v1/users/index';
+
+
+ 
+// Create our request constructor with all the parameters we need
+var request = new Request(url, {
+    method: 'GET'
+});
+
+fetch(request)
+  .then((resp) => resp.json())
+  .then(function(data) {
+    return data.map(function(people) {
+      //alert( JSON.stringify( people ) );
+      console.log("Names of people "+people.name);
+      document.writeln(people.name);
+  
+    })
+  })
+  .catch(function(error) {
+    console.log("There was an error in the connection : ");
+  }); 
+
+</script>
+
+</head>
+<body>
+</body>
+
+</html>
+
