@@ -5,11 +5,8 @@ I made a complete tutorial for this repository on youtube, you can check it out 
 
 ## How to install
 * Star this repository by clicking the star icon on the top right corner of this page
-* Clone this repostory into your system by running `git clone https://github.com/daveozoalor/lumen-api-microservice-platform-boilerplate-with-authentication-token.git`
+* Clone this repostory into your system by running `git clone https://github.com/daveozoalor/sample-api-guzzle-curl-oath2-client-request-platform.git`
 * Cd into the folder and run `npm install` . 
-* Edit the `.env` file in the root folder of the app you cloned. Enter the database details the .`.env` file. 
-* Then run your migration by running `php artisan migrate` .
-* Start the server from your command line by running `php -S localhost:8000 -t public`
 
 Remember to watch the tutorial on youtube if you have any problems, or just contact me using any of the links below. I can join your team if we have a good talk.
 
@@ -17,7 +14,7 @@ Remember to watch the tutorial on youtube if you have any problems, or just cont
 
 Follow me on my social media handles
 * Subscribe to my channel on [Youtube](https://www.youtube.com/c/braintemorg?sub_confirmation=1)
-* Follow on [Braintempl on Twitter](http://twitter.com/braintem) and [Dave Partner on Twitter](http://twitter.com/daveozoalor)
+* Follow on [Braintemple on Twitter](http://twitter.com/braintem) and [Dave Partner on Twitter](http://twitter.com/daveozoalor)
 * Follow me on [Instagram](http://instagram.com/daveozoalor)
 * Like on [Braintemple on Facebook](http://fb.com/braintem) , [Chat me up on Facebook](http://fb.com/daveozoalor)
 * You can reach the me on `daveozoalor@gmail.com`, I'd like to join your team.
